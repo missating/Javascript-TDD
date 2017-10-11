@@ -27,7 +27,7 @@ describe("fizzbuzz", function() {
         });
 
         it("should return undefined if number is less than 0", function() {
-            assert.equal(myApp.computeFizzbuzz(1), 'undefined');
+            assert.equal(myApp.computeFizzbuzz(-1), 'undefined');
         });
     });
 });
