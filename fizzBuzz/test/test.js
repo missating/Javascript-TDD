@@ -26,7 +26,7 @@ describe("fizzbuzz", function() {
             assert.equal(myApp.computeFizzbuzz(14), 14);
         });
 
-        it("should return the undefined if number is less than 0", function() {
+        it("should return undefined if number is less than 0", function() {
             assert.equal(myApp.computeFizzbuzz(1), 'undefined');
         });
     });
